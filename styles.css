@@ -5,6 +5,7 @@
 }
 
 .left-pic img {
+    /* background-color: green; */
     display: flex;
     width: 400px;
     height: 500px;
