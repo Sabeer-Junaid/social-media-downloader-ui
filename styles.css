@@ -2,14 +2,19 @@
     /* background-color: black; */
     height: 100vh;
     width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    /* background-color: aqua;
+    border: 2px red; */
 }
 
-.left-pic img {
-    /* background-color: green; */
+.left-pic {
+    /* background-color: black; */
     display: flex;
-    width: 400px;
-    height: 500px;
-    margin-top: 1rem;
+    height: 250px;
+    width: 150px;
     position: absolute;
     animation-name: floating;
     animation-duration: 3s;
@@ -32,63 +37,32 @@
 
 }
 
-/*Laptops, Desktops*/
-@media (min-width: 1281px) {
-    .left-pic img {
-        height: 680px;
-        width: 580px;
-        /* background-color: brown; */
-    }
+/* xs */
+@media (min-width: 481px) {
+   
 }
 
-/* Laptops, Desktops 1025px to 1280p*/
-
-@media (min-width: 1025px) and (max-width: 1280px) {
-
-    .left-pic img {
-        height: 680px;
-        width: 580px;
-    }
+/* sm */
+@media (min-width: 640px) {
+    
 }
 
-/*Tablets, Ipads (Portrait)*/
-@media (min-width: 768px) and (max-width: 1024px) {
-    .left-pic img {
-        height: 520px;
-        width: 420px;
-        /* background-color: green; */
-    }
-
-
+/* md */
+@media (min-width: 768px) {
+    
 }
 
-/*Tablets, Ipads (landscape)*/
-@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
-
-    .left-pic img {
-        height: 600px;
-        width: 500px;
-        /* background-color: red; */
-    }
+/* lg */
+@media (min-width: 1024px) {
+   
 }
 
-/*Mobile Devices (Landscape)*/
-@media (min-width: 481px) and (max-width: 767px) {
-
-    .left-pic img {
-        height: 300px;
-        width: 200px;
-        /* background-color:blue; */
-    }
-
+/* xl */
+@media (min-width: 1280px) {
+    
 }
 
-/* Mobile Devices (Portrait) */
-@media screen and (min-device-width: 320px) and (max-device-width: 480px) {
-    .left-pic img {
-        height: 300px;
-        width: 200px;
-        /* background-color: purple; */
-    }
+/* 2xl */
+@media (min-width: 1536px) {
 
 }
