@@ -16,7 +16,23 @@
 }
 
 /*Laptops, Desktops*/
-@media (min-width: 1025px) and (max-width: 1280px) {}
+@media (min-width: 1281px) {
+    .left-pic img {
+        height: 680px;
+        width: 580px;
+        /* background-color: brown; */
+    }
+}
+
+/* Laptops, Desktops 1025px to 1280p*/
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+
+    .left-pic img {
+        height: 680px;
+        width: 580px;
+    }
+}
 
 /*Tablets, Ipads (Portrait)*/
 @media (min-width: 768px) and (max-width: 1024px) {
