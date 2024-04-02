@@ -58,8 +58,14 @@
 
 .heading {
     font-size: 1rem;
-    text-align: left;
+    /* text-align: left; */
     font-family: MyFont;
+}
+
+.description {
+    /* text-align: left; */
+    font-size: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 /* xs */
