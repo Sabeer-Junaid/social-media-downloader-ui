@@ -1,17 +1,15 @@
-.home-container {
-    /* background-color: black; */
-    height: 100vh;
-    width: 100%;
-    margin-left: auto;
-    margin-right: auto;
-    padding-left: 0.5rem;
-    padding-right: 0.5rem;
-    /* background-color: aqua;
-    border: 2px red; */
+* {
+    margin: 0;
+    padding: 0;
 }
 
+
+#main-container {
+    display: flex;
+}
+
+/* Banner Pic */
 .left-pic {
-    /* background-color: black; */
     display: flex;
     height: 250px;
     width: 150px;
@@ -22,6 +20,7 @@
     animation-timing-function: ease-in-out
 }
 
+/* Floating Animation */
 @keyframes floating {
     0% {
         transform: translate(0, 0px);
@@ -37,32 +36,40 @@
 
 }
 
-/* xs */
-@media (min-width: 481px) {
-   
+/* Box 1 */
+.img-box {
+    height: 250px;
+    width: 150px;
 }
+
+/* Box 2 */
+.heading-box {
+    height: 200px;
+    width: 200px;
+    /* background-color: green; */
+    margin-top: 1rem;
+    text-align: center;
+}
+
+.heading {
+    font-size: 2rem;
+    text-align: left;
+}
+
+/* xs */
+@media (min-width: 481px) {}
 
 /* sm */
-@media (min-width: 640px) {
-    
-}
+@media (min-width: 640px) {}
 
 /* md */
-@media (min-width: 768px) {
-    
-}
+@media (min-width: 768px) {}
 
 /* lg */
-@media (min-width: 1024px) {
-   
-}
+@media (min-width: 1024px) {}
 
 /* xl */
-@media (min-width: 1280px) {
-    
-}
+@media (min-width: 1280px) {}
 
 /* 2xl */
-@media (min-width: 1536px) {
-
-}
+@media (min-width: 1536px) {}
