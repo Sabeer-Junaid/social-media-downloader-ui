@@ -120,6 +120,26 @@ form input:valid~button {
     color: black;
 }
 
+#howtocontent {
+    height: 100%;
+    width: 100%;
+    /* background-color: blueviolet; */
+    margin-top: 3rem;
+}
+
+.card {
+    margin: 0.5rem 0 0 0;
+    box-shadow:  3px 3px 10px;
+}
+
+.card-title{
+    font-size: 1rem;
+}
+
+.card-text {
+    font-size: 0.9rem;
+    text-align: left;
+}
 
 /* xs */
 @media (min-width: 481px) {
