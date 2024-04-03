@@ -4,7 +4,7 @@
 }
 
 
-#main-container {
+#banner-container {
     display: flex;
 }
 
@@ -12,11 +12,12 @@
 .img-box {
     height: 250px;
     width: 150px;
+    /* background-color: red; */
 }
 
 /* Box 2 */
 .heading-box {
-    height: 200px;
+    height: 240px;
     width: 200px;
     /* background-color: green; */
     margin-top: 1rem;
@@ -68,6 +69,13 @@
     font-size: 1rem;
     font-family: Arial, Helvetica, sans-serif;
 }
+
+#url-container {
+    background-color: brown;
+    height: 150px;
+    width: 350px;
+}
+
 
 /* xs */
 @media (min-width: 481px) {
