@@ -120,6 +120,7 @@ form input:valid~button {
     color: black;
 }
 
+/* How to Use */
 #howtocontent {
     height: 100%;
     width: 100%;
@@ -129,10 +130,10 @@ form input:valid~button {
 
 .card {
     margin: 0.5rem 0 0 0;
-    box-shadow:  1px 1px 5px;
+    box-shadow: 1px 1px 5px;
 }
 
-.card-title{
+.card-title {
     font-size: 1rem;
 }
 
@@ -141,6 +142,61 @@ form input:valid~button {
     text-align: left;
     font-family: Arial, Helvetica, sans-serif;
 }
+
+/* Features */
+#whyus {
+    height: 100%;
+    width: 100%;
+    /* background-color: rgb(0, 255, 4); */
+    margin-top: 2rem;
+    display: grid;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.feature-heading {
+    font-weight: bold;
+}
+
+/* FAQ Portion */
+
+#QnA {
+    height: 100%;
+    width: 100%;
+    /* background-color: darkorange; */
+    margin-top: 2rem;
+}
+
+.faq {
+    cursor: pointer;
+    border-bottom: 2px solid black;
+    margin-top: 1rem;
+}
+
+
+#QnA h3 {
+    text-align: center;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.question {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.answer {
+    max-height: 0;
+    overflow: hidden;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.faq.active .answer {
+    max-height: 300px;
+}
+
 
 /* xs */
 @media (min-width: 481px) {
@@ -188,7 +244,7 @@ form input:valid~button {
         margin-top: 1rem;
         font-family: Arial, Helvetica, sans-serif;
     }
-    
+
     form input {
         width: 100%;
         height: 50px;
@@ -197,7 +253,7 @@ form input:valid~button {
         outline: none;
         border: 1px solid #b3b2b2;
     }
-    
+
     form button {
         width: 100%;
         height: 50px;
@@ -221,10 +277,11 @@ form input:valid~button {
         /* background-color: blueviolet; */
         margin-top: 0.2rem;
     }
-    .card-title{
+
+    .card-title {
         font-size: 1rem;
     }
-    
+
     .card-text {
         font-size: 0.9rem;
         text-align: left;
@@ -278,7 +335,7 @@ form input:valid~button {
         margin-top: 1rem;
         font-family: Arial, Helvetica, sans-serif;
     }
-    
+
     form input {
         width: 100%;
         height: 50px;
@@ -287,7 +344,7 @@ form input:valid~button {
         outline: none;
         border: 1px solid #b3b2b2;
     }
-    
+
     form button {
         width: 100%;
         height: 50px;
@@ -312,10 +369,10 @@ form input:valid~button {
         margin-top: 0.2rem;
     }
 
-    .card-title{
+    .card-title {
         font-size: 1rem;
     }
-    
+
     .card-text {
         font-size: 0.9rem;
         text-align: left;
@@ -369,7 +426,7 @@ form input:valid~button {
         margin-top: 1rem;
         font-family: Arial, Helvetica, sans-serif;
     }
-    
+
     form input {
         width: 100%;
         height: 50px;
@@ -378,7 +435,7 @@ form input:valid~button {
         outline: none;
         border: 1px solid #b3b2b2;
     }
-    
+
     form button {
         width: 100%;
         height: 50px;
@@ -403,10 +460,10 @@ form input:valid~button {
         margin-top: 0.2rem;
     }
 
-    .card-title{
+    .card-title {
         font-size: 1rem;
     }
-    
+
     .card-text {
         font-size: 0.9rem;
         text-align: left;
@@ -460,7 +517,7 @@ form input:valid~button {
         margin-top: 1rem;
         font-family: Arial, Helvetica, sans-serif;
     }
-    
+
     form input {
         width: 100%;
         height: 50px;
@@ -469,7 +526,7 @@ form input:valid~button {
         outline: none;
         border: 1px solid #b3b2b2;
     }
-    
+
     form button {
         width: 100%;
         height: 50px;
@@ -494,10 +551,10 @@ form input:valid~button {
         margin-top: 0.2rem;
     }
 
-    .card-title{
+    .card-title {
         font-size: 1rem;
     }
-    
+
     .card-text {
         font-size: 0.9rem;
         text-align: left;
@@ -551,7 +608,7 @@ form input:valid~button {
         margin-top: 1rem;
         font-family: Arial, Helvetica, sans-serif;
     }
-    
+
     form input {
         width: 100%;
         height: 50px;
@@ -560,7 +617,7 @@ form input:valid~button {
         outline: none;
         border: 1px solid #b3b2b2;
     }
-    
+
     form button {
         width: 100%;
         height: 50px;
@@ -585,10 +642,10 @@ form input:valid~button {
         margin-top: 0.2rem;
     }
 
-    .card-title{
+    .card-title {
         font-size: 1rem;
     }
-    
+
     .card-text {
         font-size: 0.9rem;
         text-align: left;
@@ -642,7 +699,7 @@ form input:valid~button {
         margin-top: 1rem;
         font-family: Arial, Helvetica, sans-serif;
     }
-    
+
     form input {
         width: 100%;
         height: 50px;
@@ -651,7 +708,7 @@ form input:valid~button {
         outline: none;
         border: 1px solid #b3b2b2;
     }
-    
+
     form button {
         width: 100%;
         height: 50px;
@@ -676,10 +733,10 @@ form input:valid~button {
         margin-top: 0.2rem;
     }
 
-    .card-title{
+    .card-title {
         font-size: 1rem;
     }
-    
+
     .card-text {
         font-size: 0.9rem;
         text-align: left;
