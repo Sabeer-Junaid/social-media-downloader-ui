@@ -21,6 +21,7 @@
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" />
   <!-- Google Font -->
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tangerine" />
+
 </head>
 
 <body>
@@ -87,6 +88,7 @@
       </div>
     </div>
 
+    <!-- URL Box and Button -->
     <div id="url-container" class="container">
       <form method="#">
         <input type="url" placeholder="Paste the file link here" required>
@@ -159,48 +161,49 @@
     <!-- frequently asked questions -->
     <div id="QnA" class="container">
       <h3>FAQ</h3>
-      <div class="faq">
-        <div class="question">
-
-          <h4>1. What is AIOFinder?</h4>
-          <span><i class="fas fa-caret-down"></i></span>
-
-        </div>
-        <div class="answer">
-          <p>AIOFinder is a web tool designed to facilitate the download of your social media profile content. It
-            provides a convenient and user-friendly interface to retrieve your own social media data quickly and
-            efficiently.</p>
-        </div>
-      </div>
-
-      <div class="faq">
-        <div class="question">
-
-          <h4>2. Can I use AIOFinder to download content from other users' profiles?</h4>
-          <span><i class="fas fa-caret-down"></i></span>
-
-        </div>
-        <div class="answer">
-          <p>No, AIOFinder is specifically designed to allow users to download content from their own social media
-            profiles. It does not support downloading content from other users' profiles or any content that the user
-            does not own.</p>
-        </div>
-      </div>
-
-      <div class="faq">
-        <div class="question">
-
-          <h4>3. Is AIOFinder safe to use?</h4>
-          <span><i class="fas fa-caret-down"></i></span>
-
-        </div>
-        <div class="answer">
-          <p>Yes, AIOFinder prioritizes user privacy and security. We use industry-standard encryption protocols to
-            ensure that your data remains safe and secure throughout the download process. Additionally, we do not store
-            any of your login credentials or personal information on our servers.</p>
-        </div>
-      </div>
+      <button class="accordion">1. What is AIOFinder?</button>
+    <div class="panel">
+      <p>AIOFinder is a web tool designed to facilitate the download of your social media profile content. It
+        provides a convenient and user-friendly interface to retrieve your own social media data quickly and
+        efficiently.</p>
     </div>
+    
+    <button class="accordion">2. Can I use AIOFinder to download content from other users' profiles?</button>
+    <div class="panel">
+      <p>No, AIOFinder is specifically designed to allow users to download content from their own social media
+        profiles. It does not support downloading content from other users' profiles or any content that the user
+        does not own.</p>
+    </div>
+    
+    <button class="accordion">3. Is AIOFinder safe to use?</button>
+    <div class="panel">
+      <p>Yes, AIOFinder prioritizes user privacy and security. We use industry-standard encryption protocols to
+        ensure that your data remains safe and secure throughout the download process. Additionally, we do not store
+        any of your login credentials or personal information on our servers.</p>
+    </div>
+      </div>
+
+    <script>
+    var acc = document.getElementsByClassName("accordion");
+    var i;
+    
+    for (i = 0; i < acc.length; i++) {
+      acc[i].addEventListener("click", function() {
+        this.classList.toggle("active");
+        var panel = this.nextElementSibling;
+        if (panel.style.display === "block") {
+          panel.style.display = "none";
+        } else {
+          panel.style.display = "block";
+        }
+      });
+    }
+    </script>
+    <!-- End of FAQ -->
+    
+    </body>
+    </html>
+    
 
   
 
