@@ -216,7 +216,12 @@ footer {
     margin-top: 2rem;
 }
 
-li {
+.first-foot-links li{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.second-foot-links li{
     margin-top: 20px;
     margin-bottom: 20px;
 }
