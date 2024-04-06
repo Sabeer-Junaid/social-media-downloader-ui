@@ -30,7 +30,7 @@
     <div class="container">
       <nav class="navbar navbar-expand-md navbar-light">
         <!--Navbar Logo-->
-        <a href="#!" class="navbar-brand">
+        <a href="index.html" class="navbar-brand">
           <img src="assets/favicon.png" alt="Logo" height="30" width="30" class="d-inline-block align-top">
           AIO Finder</a>
         <!--Navbar Toggle for Mobile-->
@@ -69,11 +69,6 @@
     <!--Navbar End-->
   </header>
 
-  <div class="alert alert-warning alert-dismissible fade show" role="alert">
-    this website is under development.
-    <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
-  </div>
-
   <main>
     <div id="banner-container" class="container">
       <!-- Box 1 -->
@@ -92,7 +87,7 @@
     <div id="url-container" class="container">
       <form method="#">
         <input type="url" placeholder="Paste the file link here" required>
-        <button type="button">Submit</button>
+        <button id="buttonsss" type="button">Submit</button>
       </form>
       <p class="disclaimer">Downloading any copyrighted materials is <strong>strictly prohibited</strong>, read our <a
           href="#">Terms of Service</a></p>
@@ -104,7 +99,7 @@
         <div class="col-sm-6">
           <div class="card">
             <div class="card-body">
-              <h2 class="card-title">How to Use the AioFinder.xyz ?</h2>
+              <h2 class="card-title">How to Use the AioFinder.online ?</h2>
               <p class="card-text">Experience the convenience of online file downloading without any added
                 complications. AioFinder makes it easy for you. Just paste the file URL into the provided field and
                 click the Submit button.</p>
@@ -162,64 +157,111 @@
     <div id="QnA" class="container">
       <h3>FAQ</h3>
       <button class="accordion">1. What is AIOFinder?</button>
-    <div class="panel">
-      <p>AIOFinder is a web tool designed to facilitate the download of your social media profile content. It
-        provides a convenient and user-friendly interface to retrieve your own social media data quickly and
-        efficiently.</p>
-    </div>
-    
-    <button class="accordion">2. Can I use AIOFinder to download content from other users' profiles?</button>
-    <div class="panel">
-      <p>No, AIOFinder is specifically designed to allow users to download content from their own social media
-        profiles. It does not support downloading content from other users' profiles or any content that the user
-        does not own.</p>
-    </div>
-    
-    <button class="accordion">3. Is AIOFinder safe to use?</button>
-    <div class="panel">
-      <p>Yes, AIOFinder prioritizes user privacy and security. We use industry-standard encryption protocols to
-        ensure that your data remains safe and secure throughout the download process. Additionally, we do not store
-        any of your login credentials or personal information on our servers.</p>
-    </div>
+      <div class="panel">
+        <p>AIOFinder is a web tool designed to facilitate the download of your social media profile content. It
+          provides a convenient and user-friendly interface to retrieve your own social media data quickly and
+          efficiently.</p>
       </div>
 
+      <button class="accordion">2. Can I use AIOFinder to download content from other users' profiles?</button>
+      <div class="panel">
+        <p>No, AIOFinder is specifically designed to allow users to download content from their own social media
+          profiles. It does not support downloading content from other users' profiles or any content that the user
+          does not own.</p>
+      </div>
+
+      <button class="accordion">3. Is AIOFinder safe to use?</button>
+      <div class="panel">
+        <p>Yes, AIOFinder prioritizes user privacy and security. We use industry-standard encryption protocols to
+          ensure that your data remains safe and secure throughout the download process. Additionally, we do not store
+          any of your login credentials or personal information on our servers.</p>
+      </div>
+    </div>
+
     <script>
-    var acc = document.getElementsByClassName("accordion");
-    var i;
-    
-    for (i = 0; i < acc.length; i++) {
-      acc[i].addEventListener("click", function() {
-        this.classList.toggle("active");
-        var panel = this.nextElementSibling;
-        if (panel.style.display === "block") {
-          panel.style.display = "none";
-        } else {
-          panel.style.display = "block";
-        }
-      });
-    }
+      var acc = document.getElementsByClassName("accordion");
+      var i;
+
+      for (i = 0; i < acc.length; i++) {
+        acc[i].addEventListener("click", function () {
+          this.classList.toggle("active");
+          var panel = this.nextElementSibling;
+          if (panel.style.display === "block") {
+            panel.style.display = "none";
+          } else {
+            panel.style.display = "block";
+          }
+        });
+      }
     </script>
     <!-- End of FAQ -->
-    
-    </body>
-    </html>
-    
 
-  
+</body>
+
+</html>
+
+
+
 
 </main>
 
+<!-- Footer -->
+
+<footer>
+  <div class="row justify-content-center mb-0 pt-5 pb-0 row-2 px-3">
+    <div class="col-12">
+      <div class="row row-2">
+        <div class="col-sm-3 text-md-center">
+          <h5><span> <i class="fa fa-firefox text-light" aria-hidden="true"></i></span><b>Aio Finder</b></h5>
+        </div>
+        <div class="col-sm-3  my-sm-0 mt-5">
+          <ul class="list-unstyled"><a href="privacy-policy.html">
+              <li class="mt-0">Privacy Policy</li>
+            </a><a href="contact-us.html">
+              <li>Contact Us</li>
+            </a><a href="about-us.html">
+              <li>About Us</li>
+            </a></ul>
+        </div>
+        <div class="col-sm-3  my-sm-0 mt-5">
+          <ul class="list-unstyled">
+            <li class="mt-0">Facebook Downloader</li>
+            <li>Instagram Downloader</li>
+            <li>PDF Downloader</li>
+          </ul>
+        </div>
+        <div class="col-sm-3  my-sm-0 mt-5">
+          <ul class="list-unstyled"><a href="image-downloader.html">
+              <li class="mt-0">Image Downloader</li>
+            </a><a href="file-downloader.html">
+              <li>File Downloader</li>
+            </a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="row justify-content-center mt-0 pt-0 row-1 mb-0  px-sm-3 px-2">
+    <div class="col-12">
+      <div class="row my-4 row-1 no-gutters">
+        <div class="col-sm-3 col-auto text-center"><small>&#9400; 2024, Aio Finder</small></div>
+        <div class="col-md-3 col-auto "></div>
+        <div class="col-md-3 col-auto"></div>
+        <div class="col  my-auto text-md-left  text-right "> <small> sabeerjunaid992@gmail.com </div>
+      </div>
+    </div>
+  </div>
+</footer>
 
 
 
 
-  <!-- Optional JavaScript -->
-  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-  <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-    crossorigin="anonymous"></script>
+
+<!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </body>
 
 </html>
