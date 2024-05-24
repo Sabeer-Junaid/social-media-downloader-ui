@@ -219,11 +219,21 @@ footer {
 .first-foot-links li{
     margin-top: 20px;
     margin-bottom: 20px;
+    color: white;
 }
+
+a:link {
+    text-decoration: none;
+  }
 
 .second-foot-links li{
     margin-top: 20px;
     margin-bottom: 20px;
+    color: white;
+}
+
+.second-foot-links li a{
+    text-decoration: none;
 }
 
 .Careers {
