@@ -18,7 +18,7 @@ Social Media Downloader is used to Download Images & Videos of any Social Meida
 
 1. Clone the Repository:
   ```
- git clone https://github.com/SabeerJuniad/social-media-downloader.git
+ git clone https://github.com/SabeerJuniad/social-media-downloader_ui.git
   ```
 2. Install the dependencies:
   ```
@@ -30,11 +30,11 @@ Social Media Downloader is used to Download Images & Videos of any Social Meida
   ```
 4. Open your browser and go to:
   ```
- [git clone https://github.com/SabeerJuniad/social-media-downloader.git](http://localhost:3000)
+ [git clone https://github.com/SabeerJuniad/social-media-downloader_ui.git](http://localhost:3000)
   ```
 ## 🚀 Demo
 
-In Progress
+https://aiofinder.netlify.app
 
 
 ## Screenshot
