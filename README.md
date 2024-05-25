@@ -1,4 +1,4 @@
-<h1 align="center">🔗 Social Media Downloader</h1>
+<h1 align="center">🔗 UI Design for Social Media Downloader</h1>
 <p align="center">
 
   
@@ -12,13 +12,13 @@
 
 
 
-Social Media Downloader is used to Download Images & Videos of any Social Meida
+User Interface design of Social Media Downloader.
 
 ## Getting Started
 
 1. Clone the Repository:
   ```
- git clone https://github.com/SabeerJuniad/social-media-downloader_ui.git
+ git clone https://github.com/SabeerJuniad/social-media-downloader-ui.git
   ```
 2. Install the dependencies:
   ```
@@ -30,24 +30,17 @@ Social Media Downloader is used to Download Images & Videos of any Social Meida
   ```
 4. Open your browser and go to:
   ```
- [git clone https://github.com/SabeerJuniad/social-media-downloader_ui.git](http://localhost:3000)
+ [git clone https://github.com/SabeerJuniad/social-media-downloader-ui.git](http://localhost:3000)
   ```
 ## 🚀 Demo
 
 https://aiofinder.netlify.app
 
 
-## Screenshot
-
--
-
 ## Languages
 
 
 <img alt="html" src="https://img.shields.io/badge/html5-E34F26?style=for-the-badge&logo=html5&logoColor=E34F26&labelColor=black"> <img alt="Static Badge" src="https://img.shields.io/badge/css3-1572B6?style=for-the-badge&logo=css3&logoColor=1572B6&labelColor=black">
-
-## 🤝 Contributing
-I welcome contributions to social-media-downloader!
 
 ## 📝 License
 
