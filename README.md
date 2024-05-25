@@ -7,18 +7,13 @@
   </a>
 </p>
 
-
-![Logo](https://socialify.git.ci/SabeerJuniad/social-media-downloader/image?font=Source%20Code%20Pro&name=1&owner=1&pattern=Solid&theme=Auto)
-
-
-
 User Interface design of Social Media Downloader.
 
 ## Getting Started
 
 1. Clone the Repository:
   ```
- git clone https://github.com/SabeerJuniad/social-media-downloader-ui.git
+ git clone https://github.com/Sabeer-Juniad/social-media-downloader-ui.git
   ```
 2. Install the dependencies:
   ```
@@ -30,7 +25,7 @@ User Interface design of Social Media Downloader.
   ```
 4. Open your browser and go to:
   ```
- [git clone https://github.com/SabeerJuniad/social-media-downloader-ui.git](http://localhost:3000)
+ [git clone https://github.com/Sabeer-Juniad/social-media-downloader-ui.git](http://localhost:3000)
   ```
 ## 🚀 Demo
 
